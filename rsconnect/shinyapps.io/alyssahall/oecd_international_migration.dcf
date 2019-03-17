@@ -1,0 +1,12 @@
+name: oecd_international_migration
+title: oecd_international_migration
+username:
+account: alyssahall
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 782618
+bundleId: 1932516
+url: https://alyssahall.shinyapps.io/oecd_international_migration/
+when: 1552361978.67332
+asMultiple: FALSE
+asStatic: FALSE
