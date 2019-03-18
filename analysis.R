@@ -94,12 +94,12 @@ build_barchart <- function(data1, data2, country, year) {
     joined_data, 
     x = ~inflow, 
     y = ~origin_char,
-    name = "Inflow of migrants",
+    name = "Inflow of Migrants",
     type = "bar",
     colors = "Set1"
   ) %>% 
     layout(title = "",
-           xaxis = list(title = "Number of migrants"),
+           xaxis = list(title = "Number of Migrants"),
            yaxis = list(title = "")) %>% 
     add_trace(x = ~acquisition, name = "Acquisition of Citizenship")
 }
@@ -177,7 +177,7 @@ build_plot <- function(data1, data2, country) {
     joined_totals, 
     x = ~year_string, 
     y = ~inflow,
-    name = "Inflow of migrants",
+    name = "Inflow of Migrants",
     type = "scatter",
     mode = "lines+markers",
     colors = "Set1"
